@@ -26,7 +26,7 @@ This is a simple car game implemented in Python using Pygame for graphics and Me
 
    ```bash
    git clone https://github.com/SabarishCodeWizard/Hand-Tracked-Car-Game-using-Pygame-and-MediaPipe.git
-   cd car-game
+   cd Hand-Tracked-Car-Game-using-Pygame-and-MediaPipe
    ```
 
 2. Install dependencies:
@@ -65,9 +65,13 @@ This is a simple car game implemented in Python using Pygame for graphics and Me
 - **Collision Detection**: Collisions with obstacles end the game, unless the invincibility power-up is active.
 - **Score**: Score increases over time and with certain power-ups.
 
+## Demo
+
+[Watch the demo video](https://github.com/SabarishCodeWizard/Hand-Tracked-Car-Game-using-Pygame-and-MediaPipe/blob/main/Recording%202024-07-13%20200155.mp4)
+
 ## Credits
 
-- Images and music,videos used in the game are sourced from various free asset websites.
+- Images, music, and videos used in the game are sourced from various free asset websites.
 
 ## License
 
