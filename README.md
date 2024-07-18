@@ -67,7 +67,7 @@ This is a simple car game implemented in Python using Pygame for graphics and Me
 
 ## Demo
 
-[Watch the demo video](https://github.com/SabarishCodeWizard/Hand-Tracked-Car-Game-using-Pygame-and-MediaPipe/blob/main/Recording%202024-07-13%20200155.mp4)
+[Watch the demo video](https://drive.google.com/file/d/11wqow5xMREfjLlpZASJc6ggIHk6-SsAZ/view?usp=sharing)
 
 ## Credits
 
