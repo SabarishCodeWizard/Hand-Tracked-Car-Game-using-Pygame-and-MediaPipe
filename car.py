@@ -18,7 +18,7 @@ mp_drawing = mp.solutions.drawing_utils
 cap = cv2.VideoCapture(0)
 
 # Load video for background
-video_path = "C:/Users/ravik/Downloads/stock-footage-racing-game-top-down-view-of-road-with-tree-bit-old-video-game-retro-style-background-seamless.webm"
+video_path = "D:\GitHub\Hand-Tracked-Car-Game-using-Pygame-and-MediaPipe-main\stock-footage-racing-game-top-down-view-of-road-with-tree-bit-old-video-game-retro-style-background-seamless.webm"
 video = cv2.VideoCapture(video_path)
 
 # Initialize Pygame
