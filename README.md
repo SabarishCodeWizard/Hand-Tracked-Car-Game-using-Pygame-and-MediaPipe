@@ -4,6 +4,10 @@
 
 This is a simple car game implemented in Python using Pygame for graphics and MediaPipe for hand tracking. The player controls the car using hand gestures detected via the webcam.
 
+## Demo
+
+[Watch the demo video](https://drive.google.com/file/d/11wqow5xMREfjLlpZASJc6ggIHk6-SsAZ/view?usp=sharing)
+
 ## Features
 
 - Control the car using hand gestures detected via webcam.
@@ -64,10 +68,6 @@ This is a simple car game implemented in Python using Pygame for graphics and Me
 - **Speed Increment**: The speed of the car and obstacles increases at regular intervals to add difficulty.
 - **Collision Detection**: Collisions with obstacles end the game, unless the invincibility power-up is active.
 - **Score**: Score increases over time and with certain power-ups.
-
-## Demo
-
-[Watch the demo video](https://drive.google.com/file/d/11wqow5xMREfjLlpZASJc6ggIHk6-SsAZ/view?usp=sharing)
 
 ## Credits
 
