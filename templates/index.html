@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Game Control</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Car Game Control</h1>
-    <form action="/start_game" method="POST">
-        <button type="submit">Start Game</button>
-    </form>
-    <form action="/stop_game" method="POST">
-        <button type="submit">Stop Game</button>
-    </form>
+<body class="bg-gradient-to-r from-blue-900 via-gray-900 to-blue-900 text-white min-h-screen flex items-center justify-center">
+    <div class="bg-gray-800 shadow-xl rounded-2xl p-8 max-w-md text-center border border-gray-700">
+        <h1 class="text-4xl font-extrabold text-yellow-400 mb-8">Car Game Control</h1>
+
+        <div class="flex flex-col space-y-4">
+            <form action="/start_game" method="POST">
+                <button type="submit" class="w-full bg-gradient-to-r from-green-400 to-green-600 hover:from-green-500 hover:to-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    Start Game
+                </button>
+            </form>
+
+            <form action="/stop_game" method="POST">
+                <button type="submit" class="w-full bg-gradient-to-r from-red-400 to-red-600 hover:from-red-500 hover:to-red-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    Stop Game
+                </button>
+            </form>
+        </div>
+
+        <p class="mt-6 text-gray-400 text-sm">Take control of your car game with style!</p>
+    </div>
 </body>
 </html>
